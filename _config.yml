@@ -21,6 +21,7 @@
 title: n0desire
 email: hello@n0desire.com
 description: 𝓌𝒽𝒶𝓉𝒹𝑜 𝓎𝑜𝓊𝒹𝑒𝓈𝒾𝓇𝑒 ?
+baseurl: "/n0desiredotcom"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://n0desire.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: threestuff
