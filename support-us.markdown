@@ -4,6 +4,19 @@ title: Support Us
 permalink: /support-us/
 ---
 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5MWV6MHXQZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+gtag('config', 'G-5MWV6MHXQZ');
+</script>
+
+</head>
+
 <h1>n0desire is a self-funded project. To support us please donate!</h1>
 
 <div id="donate-button-container">

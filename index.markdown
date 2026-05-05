@@ -5,6 +5,19 @@
 layout: home
 ---
 
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5MWV6MHXQZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+gtag('config', 'G-5MWV6MHXQZ');
+</script>
+
+</head>
+
 <div style="text-align: center;">
   <img
     src="./assets/images/n0desire-logo-helvetica.jpg"
