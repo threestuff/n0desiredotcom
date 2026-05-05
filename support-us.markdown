@@ -6,6 +6,18 @@ permalink: /support-us/
 
 <h1>n0desire is a self-funded project. To support us please donate!</h1>
 
-<form action="#" method="post" target="_blank">
-    <button type="submit">Donate with PayPal</button>
-</form>
+<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'VFTX26CE5E5YS',
+image: {
+src:'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>

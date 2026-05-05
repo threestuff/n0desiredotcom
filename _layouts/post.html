@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<head>
+  <script
+    type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js"
+    defer
+  ></script>
+</head>
+
 <article
   class="post h-entry"
   itemscope
@@ -42,3 +50,11 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<div class="sharethis-share-buttons" data-type="inline-share-buttons">
+  <span data-network="facebook"></span>
+  <span data-network="reddit"></span>
+  <span data-network="twitter"></span>
+  <span data-network="email"></span>
+  <span data-network="sharethis"></span>
+</div>

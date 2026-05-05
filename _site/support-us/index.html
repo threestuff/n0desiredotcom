@@ -9,16 +9,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="𝓌𝒽𝒶𝓉𝒹𝑜 𝓎𝑜𝓊𝒹𝑒𝓈𝒾𝓇𝑒 ?" />
 <meta property="og:description" content="𝓌𝒽𝒶𝓉𝒹𝑜 𝓎𝑜𝓊𝒹𝑒𝓈𝒾𝓇𝑒 ?" />
-<link rel="canonical" href="https://n0desire.com/support-us/" />
-<meta property="og:url" content="https://n0desire.com/support-us/" />
+<link rel="canonical" href="http://localhost:4000/support-us/" />
+<meta property="og:url" content="http://localhost:4000/support-us/" />
 <meta property="og:site_name" content="n0desire" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Support Us" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"𝓌𝒽𝒶𝓉𝒹𝑜 𝓎𝑜𝓊𝒹𝑒𝓈𝒾𝓇𝑒 ?","headline":"Support Us","url":"https://n0desire.com/support-us/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"𝓌𝒽𝒶𝓉𝒹𝑜 𝓎𝑜𝓊𝒹𝑒𝓈𝒾𝓇𝑒 ?","headline":"Support Us","url":"http://localhost:4000/support-us/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://n0desire.com/feed.xml" title="n0desire" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="n0desire" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">n0desire</a><nav class="site-nav">
@@ -45,9 +45,21 @@
   <div class="post-content">
     <h1>n0desire is a self-funded project. To support us please donate!</h1>
 
-<form action="#" method="post" target="_blank">
-    <button type="submit">Donate with PayPal</button>
-</form>
+<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'VFTX26CE5E5YS',
+image: {
+src:'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
 
   </div>
 
@@ -72,7 +84,7 @@
 
       <div class="footer-col footer-col-2">
         
-<a href="https://www.youtube.com/@n0desire" style="color: red;"><i class="fa fa-youtube-play" style="font-size:24px;color:red"></i></a>
+<a href="https://www.youtube.com/@n0desire" style="color: red;"><i class="fa fa-youtube-play" style="font-size:32px;color:red"></i></a>
        
       </div>
 
